@@ -1,0 +1,31 @@
+#vanta-bg {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  #vanta-bg > section {
+    position: relative;
+    z-index: 1; /* Keeps content above the Vanta background */
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+  
+  #vanta-bg canvas {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  const firebaseConfig = {
+    apiKey: "AIzaSyDByvCgEo-fxXkEVweVtNCxlmSk0pCl_MY",
+    authDomain: "portfolio-website-main-fbdea.firebaseapp.com",
+    projectId: "portfolio-website-main-fbdea",
+    storageBucket: "portfolio-website-main-fbdea.firebasestorage.app",
+    messagingSenderId: "836990019221",
+    appId: "1:836990019221:web:c9f98a767d497c62a89d9c",
+    measurementId: "G-YFBQN2FGBP"
+  };
+  
